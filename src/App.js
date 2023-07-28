@@ -12,7 +12,7 @@ function App() {
         <Header />
         <Routes>
           <Route path='/' exact element={<ProductListing />} />
-          <Route path='/products/:productID' exact element={<ProductDetails />} />
+          <Route path='/product/:productID' exact element={<ProductDetails />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </BrowserRouter>
